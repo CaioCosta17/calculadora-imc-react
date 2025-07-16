@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora-imc-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #013975;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #013975;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.mensagem-erro {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid #dc3545;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8d7da;
+}
+
+.resultado {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #dddddd;
+}
+
+.resultado h2 {
+    color: #28a745;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.resultado p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.resultado strong {
+    color: #013975;
+}
+
+.infos {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.4;
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
