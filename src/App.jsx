@@ -59,15 +59,15 @@ function App() {
         <div className='resultado'>
           <h2>Seu IMC: {imc}</h2>
           <p>Classificação: <strong>{classificacao}</strong></p>
-          <p className='infos'>
-            Tabela de classificação do IMC (OMS): <br/>
-            Menor que 18.5: Abaixo do peso <br />
-            18.5 a 24.9: Peso normal <br />
-            25.0 a 29.9: Sobrepeso <br />
-            30.0 a 34.9: Obesidade Grau I <br />
-            35.0 a 39.9: Obesidade Grau II <br />
-            Maior ou igual a 40.0: Obsidade Grau III
-          </p>
+          <div className='infos'>
+            <span>Tabela de classificação do IMC (OMS):</span>
+            <span>Menor que 18.5: Abaixo do peso</span> 
+            <span>18.5 a 24.9: Peso normal</span> 
+            <span>25.0 a 29.9: Sobrepeso</span> 
+            <span>30.0 a 34.9: Obesidade Grau I</span>
+            <span>35.0 a 39.9: Obesidade Grau II</span>
+            <span>Maior ou igual a 40.0: Obsidade Grau III</span>
+          </div>
         </div>
       )}
     </div>
